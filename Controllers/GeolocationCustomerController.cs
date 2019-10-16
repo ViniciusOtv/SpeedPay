@@ -14,7 +14,7 @@ namespace SpeedPay.Controllers
         {
             var apiService = new GeolocationService();
 
-            var location = apiService.FindLocationCustomer("AIzaSyBI3MpxlI6VQt7s4jTdDo4JZw6fUVxSYLo");
+            var location = apiService.FindLocationCustomer("");
             
             return location.Lat + location.Lng;
         }
