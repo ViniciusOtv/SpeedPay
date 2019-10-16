@@ -14,7 +14,7 @@ namespace SpeedPay.Controllers
         {
             var api = new PlaceService();
 
-            var place = api.GetPlace("MacDonalds", "-23.5512625", "-46.8563475", "AIzaSyBI3MpxlI6VQt7s4jTdDo4JZw6fUVxSYLo");
+            var place = api.GetPlace("MacDonalds", "-23.5512625", "-46.8563475", "");
 
             return place.Body;
         }
